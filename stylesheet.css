@@ -295,4 +295,10 @@ ul {
   text-align: center;
 }
 
+
+li {
+  margin-right: 10px;
+  font-size: 0.7rem;
+}
+
 }
