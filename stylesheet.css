@@ -281,3 +281,18 @@ ul {
   }
 
 }
+
+@media (max-width: 768px) {
+
+.hero-img {
+    height: 300px; 
+    border-radius: 20px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+}
