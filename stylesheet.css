@@ -82,7 +82,7 @@ ul {
     font-weight: 600;
     letter-spacing: 2px;
   }
-  
+
   .logo:hover {
     text-decoration: none;
     cursor: default;
@@ -254,6 +254,29 @@ ul {
   padding: 40px 30px 30px;
 }
 
+.project-container-double {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding-left: 20%;
+  padding-bottom: 80px;
+  gap: 50px;
+}
+
+.project-card-double {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  width: 35%;
+  border-top:15px double #E9FFC2;
+  border-right:10px solid #E9FFC2;
+  border-bottom: 5px solid #E9FFC2;
+  border-left: 5px solid #E9FFC2;
+  border-radius: 10%;
+  padding: 40px 30px 30px;
+}
+
   /* https://colorhunt.co/palette/aac8a7c3edc0e9ffc2fdffae */
 
 @media (max-width: 1120px) {
@@ -269,13 +292,13 @@ ul {
     align-items: center;
   }
 
-  .project-container {
+  .project-container, .project-container-double {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .project-card {
+  .project-card, .project-card-double {
     width: 300px;
     padding-left: 10%;
   }
@@ -294,7 +317,6 @@ ul {
   flex-direction: column-reverse;
   text-align: center;
 }
-
 
 li {
   margin-right: 10px;
